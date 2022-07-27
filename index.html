@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- custom js file -->
+    <script src="script.js" defer></script>
+
+    <title>The Main Character Playlist</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">The Main Character Playlist</h1>
+
+      <div class="box-container">
+        <div class="box" data-src="music/m1.mp3">
+          <div class="image">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="images" src="images/i1.jpg" alt="wildest-dreams">
+          </div>
+          <div class="content">
+            <h3>Wildest Dreams - Taylor Swift</h3>
+          </div>
+        </div>
+
+        <div class="box" data-src="music/m2.mp3">
+          <div class="image">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="images" src="images/i2.jpg" alt="lover">
+          </div>
+          <div class="content">
+            <h3>Lover - Taylor Swift</h3>
+          </div>
+        </div>
+
+        <div class="box" data-src="music/m3.mp3">
+          <div class="image">
+            <img class="images" src="images/i3.jpg" alt="teenage-dream">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Teenage Dream - Katy Perry</h3>
+          </div>
+        </div>
+
+        <div class="box" data-src="music/m4.mp3">
+          <div class="image">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="images" src="images/i4.png" alt="ice-cream">
+          </div>
+          <div class="content">
+            <h3>Ice Cream - BlankPink & Selena</h3>
+          </div>
+        </div>
+
+        <div class="box" data-src="music/m5.mp3">
+          <div class="image">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="images" src="images/i5.jpg" alt="watermelon-sugar">
+          </div>
+          <div class="content">
+            <h3>Watermelon Sugar - Harry Styles</h3>
+          </div>
+        </div>
+
+        <div class="box" data-src="music/m6.mp3">
+          <div class="image">
+            <img class="images" src="images/i6.jpg" alt="slow-hands">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Slow Hands - Nail Horon</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="music-player">
+      <div id="close-player" class="fas fa-angle-up">
+      </div>
+      <h3 class="music-title">play your music</h3>
+      <audio src="" controls>
+      </audio>
+    </div>
+
+  </body>
+</html>
